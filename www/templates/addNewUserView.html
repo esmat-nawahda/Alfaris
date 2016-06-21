@@ -1,0 +1,14 @@
+<ion-view view-title="تسجيل مستخدم جديد" name="login-view">
+    <ion-content class="padding">
+        <div class="list list-inset">
+            <label class="item item-input">
+
+                <input type="text" placeholder="Username" ng-model="userName">
+            </label>
+            <label class="item item-input">
+                <input type="password" placeholder="Password" ng-model="userPassword">
+            </label>
+        </div>
+        <button class="button button-block button-calm"ng-click="addNewUser(userName,userPassword)" > تسجيل</button>
+    </ion-content>
+</ion-view>
